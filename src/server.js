@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const bodyParser = require("body-parser");
 const formidable = require("express-formidable");
-var config = require('./config');
 var routes = require('./router');
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
